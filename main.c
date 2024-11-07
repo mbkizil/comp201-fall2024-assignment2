@@ -6,7 +6,7 @@
 // Student ID:
 // GitHub Username:
 
-#define MAX_TURNS 50
+#define MAX_TURNS 6
 #define LION_HUNGER_LIMIT 3
 #define ZEBRA_HUNGER_LIMIT 3
 #define REPRODUCTION_AGE 5

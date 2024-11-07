@@ -1,0 +1,91 @@
+2
+2
+Z-
+ZG
+
+
+Initalize grid
+
+Grid[0][0] Zebra[age=0, hunger_counter=0], Grass[available=0, growth=0]
+Grid[0][1] Grass[available=0, growth=0]
+Grid[1][0] Zebra[age=0, hunger_counter=0], Grass[available=0, growth=0]
+Grid[1][1] Grass[available=1]
+
+
+First Turn
+
+Grass Step:
+
+Grid[0][0] Zebra[age=0, hunger_counter=0], Grass[available=0, growth=1]
+Grid[0][1] Grass[available=0, growth=1]
+Grid[1][0] Zebra[age=0, hunger_counter=0], Grass[available=0, growth=1]
+Grid[1][1] Grass[available=1]
+
+Zebra Step:
+
+Grid[0][0] Grass[available=0, growth=1]
+Grid[0][1] Zebra[age=1, hunger_counter=1], Grass[available=0, growth=1]
+Grid[1][0] Grass[available=0, growth=1]
+Grid[1][1] Zebra[age=1, hunger_counter=0], Grass[available=0, growth=0]
+
+Lion Step: Empty for this case
+
+
+
+Second Turn
+
+Grass Step:
+
+Grid[0][0] Grass[available=0, growth=2]
+Grid[0][1] Zebra[age=1, hunger_counter=1], Grass[available=0, growth=2]
+Grid[1][0] Grass[available=0, growth=2]
+Grid[1][1] Zebra[age=1, hunger_counter=0], Grass[available=0, growth=1]
+
+Zebra Step:
+
+Grid[0][0] Zebra[age=2, hunger_counter=2], Grass[available=0, growth=2]
+Grid[0][1] Grass[available=0, growth=2]
+Grid[1][0] Zebra[age=2, hunger_counter=1], Grass[available=0, growth=2]
+Grid[1][1] Grass[available=0, growth=1]
+
+
+Third Turn
+
+Grass Step:
+
+Grid[0][0] Zebra[age=2, hunger_counter=2], Grass[available=0, growth=3]
+Grid[0][1] Grass[available=0, growth=3]
+Grid[1][0] Zebra[age=2, hunger_counter=1], Grass[available=0, growth=3]
+Grid[1][1] Grass[available=0, growth=2]
+
+Zebra Step:
+
+Grid[0][0] Grass[available=0, growth=3]
+Grid[0][1] Grass[available=0, growth=3]
+Grid[1][0] Zebra[age=3, hunger_counter=2], Grass[available=0, growth=3]
+Grid[1][1] Grass[available=0, growth=2]
+
+
+Fourth Turn
+
+Grass Step:
+
+Grid[0][0] Grass[available=0, growth=4]
+Grid[0][1] Grass[available=0, growth=4]
+Grid[1][0] Zebra[age=3, hunger_counter=2], Grass[available=0, growth=4]
+Grid[1][1] Grass[available=0, growth=3]
+
+Zebra Step:
+
+Grid[0][0] Grass[available=0, growth=4]
+Grid[0][1] Grass[available=0, growth=4]
+Grid[1][0] Grass[available=0, growth=4]
+Grid[1][1] Grass[available=0, growth=3]
+
+
+Fifth Turn
+
+Grid[0][0] Grass[available=1]
+Grid[0][1] Grass[available=1]
+Grid[1][0] Grass[available=1]
+Grid[1][1] Grass[available=0, growth=4]
